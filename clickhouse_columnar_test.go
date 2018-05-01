@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kshvakov/clickhouse"
+	"github.com/linmounong/clickhouse"
 	"github.com/stretchr/testify/assert"
 )
 

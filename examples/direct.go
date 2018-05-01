@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/kshvakov/clickhouse"
+	"github.com/linmounong/clickhouse"
 )
 
 func main() {

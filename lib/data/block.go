@@ -6,9 +6,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/kshvakov/clickhouse/lib/binary"
-	"github.com/kshvakov/clickhouse/lib/column"
-	wb "github.com/kshvakov/clickhouse/lib/writebuffer"
+	"github.com/linmounong/clickhouse/lib/binary"
+	"github.com/linmounong/clickhouse/lib/column"
+	wb "github.com/linmounong/clickhouse/lib/writebuffer"
 )
 
 type Block struct {

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kshvakov/clickhouse"
-	data "github.com/kshvakov/clickhouse/lib/data"
+	"github.com/linmounong/clickhouse"
+	data "github.com/linmounong/clickhouse/lib/data"
 )
 
 func main() {

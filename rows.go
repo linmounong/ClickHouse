@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kshvakov/clickhouse/lib/column"
-	"github.com/kshvakov/clickhouse/lib/data"
-	"github.com/kshvakov/clickhouse/lib/protocol"
+	"github.com/linmounong/clickhouse/lib/column"
+	"github.com/linmounong/clickhouse/lib/data"
+	"github.com/linmounong/clickhouse/lib/protocol"
 )
 
 type rows struct {
