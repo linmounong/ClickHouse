@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"crypto/tls"
 	"database/sql/driver"
+	"math/rand"
 	"net"
 	"sync/atomic"
 	"time"
@@ -44,7 +45,7 @@ func dial(secure, skipVerify bool, hosts []string, readTimeout, writeTimeout tim
 		case connOpenInOrder:
 			num = i
 		case connOpenRandom:
-			num = (ident + 1) % len(hosts)
+			num = rand.New(rand.NewSource(time.Now().Unix())).Intn(len(hosts))
 		}
 		switch {
 		case secure:
